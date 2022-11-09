@@ -5,7 +5,7 @@ SET client_encoding = 'LATIN1';
 CREATE SCHEMA prod;
 
 -- Here create the table for the ETL output
-CREATE TABLE prod.most_rel_microw (
+CREATE TABLE prod.most_relevant_product (
 	user_id serial4 NOT NULL,
 	id varchar(20) NOT NULL,
 	site_id varchar(5) NOT NULL,
@@ -14,7 +14,7 @@ CREATE TABLE prod.most_rel_microw (
 	sold_quantity int4 NULL,
 	thumbnail varchar(355) NULL,
 	created_date timestamp NOT NULL,
-	CONSTRAINT most_rel_microw_pkey PRIMARY KEY (user_id)
+	CONSTRAINT most_relevant_product_pkey PRIMARY KEY (user_id)
 );
 
 COMMIT;

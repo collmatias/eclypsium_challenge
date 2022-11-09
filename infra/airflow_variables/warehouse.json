@@ -1,0 +1,9 @@
+{
+  "warehouse_user": "postgres",
+  "warehouse_password": "docker",
+  "warehouse_ip": "172.18.0.4",
+  "warehouse_port": "5432",
+  "warehouse_database": "postgres",
+  "warehouse_schema": "prod",
+  "on_alert_mail_to": "collmatias@gmail.com"
+}

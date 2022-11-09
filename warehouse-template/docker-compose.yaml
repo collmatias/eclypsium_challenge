@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  db:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    image: postgres-wh:latest
+    restart: always
+    ports:
+      - '15432:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+    networks:
+      node_net:
+        ipv4_address: 172.28.1.4
+volumes:
+  db:
+    driver: local
+  
+networks:
+  node_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.28.0.0/16

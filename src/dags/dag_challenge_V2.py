@@ -48,7 +48,7 @@ def api_error_handler(ti):
     html_content=Environment().from_string("""<!DOCTYPE html>
                                                 <html lang="en">
                                                 <head>
-                                                    <title>Alert on {{ code }} MLA API</title>
+                                                    <title>Alert in {{ code }} MLA API</title>
                                                 </head>
                                                 <body>
                                                     <h1>Error MLA API: {{ resp_reason }}</h1>
@@ -86,10 +86,10 @@ def data_quality_check(ti):
     # Check data Quality whit Pandas here!
     # Example: We need to have 50 diferent id products to be Ok.
     #
-    #if df.nunique().id != 49:      # To test check Uncomment!
-    if df.nunique().id != 50:       # To test check Comment!
-        #data_error.append("Error: No hay 49 registros. Existen "+str(df.nunique().id)+" id diferentes.")   # To test check Uncomment!
-        data_error.append("Error: No hay 50 registros. Existen "+str(df.nunique().id)+" id diferentes.")    # To test check Comment!
+    if df.nunique().id != 49:      # To test check Uncomment!
+    #if df.nunique().id != 50:       # To test check Comment!
+        data_error.append("Error: No hay 49 registros. Existen "+str(df.nunique().id)+" id diferentes.")   # To test check Uncomment!
+        #data_error.append("Error: No hay 50 registros. Existen "+str(df.nunique().id)+" id diferentes.")    # To test check Comment!
     #
     if len(data_error)>0:
         data_error_flag = True
@@ -97,7 +97,7 @@ def data_quality_check(ti):
     html_content=Environment().from_string("""<!DOCTYPE html>
                                                 <html lang="en">
                                                 <head>
-                                                    <title>Alert on {{ code }} MLA API</title>
+                                                    <title>Alert in {{ code }} MLA API</title>
                                                 </head>
                                                 <body>
                                                     <h1>Data error MLA API: {{ error }}</h1>
@@ -172,7 +172,7 @@ def products_alert_check(ti) -> None:
         html_content=Environment().from_string("""<!DOCTYPE html>
                                                     <html lang="en">
                                                     <head>
-                                                        <title>Alert on {{ product_code }} category</title>
+                                                        <title>Alert in {{ product_code }} category</title>
                                                     </head>
                                                     <body>
                                                         <h1>Se han vendido articulos por más de $7.000.000 para la categoria {{ product_code }}.</h1>
@@ -220,7 +220,7 @@ with DAG(
     task_send_data_error_mail = EmailOperator(
         task_id='send_data_error_mail',
         to=Variable.get("on_alert_mail_to"),
-        subject="Error on DAG ",
+        subject="Error in DAG ",
         files=[],
         html_content = """{{ task_instance.xcom_pull(key='html_content', task_ids=['data_quality_check']) }}"""
         )
@@ -229,7 +229,7 @@ with DAG(
     task_send_dag_error_mail = EmailOperator(
         task_id='send_dag_error_mail',
         to=Variable.get("on_alert_mail_to"),
-        subject="Error on DAG",
+        subject="Error in DAG",
         files=[],
         html_content = """{{ task_instance.xcom_pull(key='html_content', task_ids=['api_error_handler']) }}"""
         )
@@ -250,7 +250,7 @@ with DAG(
     task_send_product_email = EmailOperator(
         task_id='send_product_email',
         to=Variable.get("on_alert_mail_to"),
-        subject="Alert on "+ Variable.get("product_code") +" category",
+        subject="Alert in "+ Variable.get("product_code") +" category",
         files=["/opt/airflow/dags/json/"+ Variable.get("product_code") +"_7M_threshold.json"],
         html_content = """{{ task_instance.xcom_pull(key='html_content', task_ids=['products_alert_check']) }}"""
         )

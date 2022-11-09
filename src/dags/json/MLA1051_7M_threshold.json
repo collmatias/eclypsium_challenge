@@ -6,7 +6,7 @@
         "price": 51999.0,
         "sold_quantity": 13593,
         "thumbnail": "http://http2.mlstatic.com/D_854793-MLA50262132804_062022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 706822407.0
     },
     {
@@ -14,20 +14,20 @@
         "site_id": "MLA",
         "title": "Samsung Galaxy A03 128 Gb  Negro 4 Gb Ram",
         "price": 49999.0,
-        "sold_quantity": 10549,
+        "sold_quantity": 10551,
         "thumbnail": "http://http2.mlstatic.com/D_773113-MLA52148554030_102022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 527439451.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 527539449.0
     },
     {
         "id": "MLA1150076589",
         "site_id": "MLA",
         "title": " Moto G52 128 Gb  Azul 6 Gb Ram",
         "price": 69999.0,
-        "sold_quantity": 3851,
+        "sold_quantity": 3853,
         "thumbnail": "http://http2.mlstatic.com/D_670715-MLA50817056907_072022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 269566149.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 269706147.0
     },
     {
         "id": "MLA1100859679",
@@ -36,7 +36,7 @@
         "price": 78999.0,
         "sold_quantity": 153,
         "thumbnail": "http://http2.mlstatic.com/D_922219-MLA48428094384_122021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 12086847.0
     },
     {
@@ -44,10 +44,10 @@
         "site_id": "MLA",
         "title": "Samsung Galaxy A03 64 Gb  Negro 4 Gb Ram",
         "price": 45999.0,
-        "sold_quantity": 5214,
+        "sold_quantity": 5215,
         "thumbnail": "http://http2.mlstatic.com/D_773113-MLA52148554030_102022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 239838786.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 239884785.0
     },
     {
         "id": "MLA1143726354",
@@ -56,7 +56,7 @@
         "price": 58999.0,
         "sold_quantity": 2012,
         "thumbnail": "http://http2.mlstatic.com/D_762562-MLA50401440917_062022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 118705988.0
     },
     {
@@ -64,10 +64,10 @@
         "site_id": "MLA",
         "title": "Samsung Galaxy A03 32 Gb  Negro 3 Gb Ram",
         "price": 39999.0,
-        "sold_quantity": 4252,
+        "sold_quantity": 4253,
         "thumbnail": "http://http2.mlstatic.com/D_773113-MLA52148554030_102022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 170075748.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 170115747.0
     },
     {
         "id": "MLA1137712864",
@@ -76,7 +76,7 @@
         "price": 159999.0,
         "sold_quantity": 3976,
         "thumbnail": "http://http2.mlstatic.com/D_716191-MLA44281674442_122020-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 636156024.0
     },
     {
@@ -84,10 +84,10 @@
         "site_id": "MLA",
         "title": "Recomendado Samsung Galaxy A03 Core 32 Gb Green2 Gb Ram",
         "price": 33999.0,
-        "sold_quantity": 426,
+        "sold_quantity": 427,
         "thumbnail": "http://http2.mlstatic.com/D_941008-MLA51455015688_092022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 14483574.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 14517573.0
     },
     {
         "id": "MLA1127183167",
@@ -96,7 +96,7 @@
         "price": 362999.0,
         "sold_quantity": 1324,
         "thumbnail": "http://http2.mlstatic.com/D_950182-MLA52132546719_102022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 480610676.0
     },
     {
@@ -106,7 +106,7 @@
         "price": 119999.0,
         "sold_quantity": 3449,
         "thumbnail": "http://http2.mlstatic.com/D_988597-MLA50693346006_072022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 413876551.0
     },
     {
@@ -116,7 +116,7 @@
         "price": 71999.0,
         "sold_quantity": 2560,
         "thumbnail": "http://http2.mlstatic.com/D_863356-MLA48697556226_122021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 184317440.0
     },
     {
@@ -124,10 +124,10 @@
         "site_id": "MLA",
         "title": " Moto E40 64 Gb  Rosa Champagne 4 Gb Ram",
         "price": 47999.0,
-        "sold_quantity": 2358,
+        "sold_quantity": 2360,
         "thumbnail": "http://http2.mlstatic.com/D_618319-MLA48464368133_122021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 113181642.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 113277640.0
     },
     {
         "id": "MLA1132584768",
@@ -136,7 +136,7 @@
         "price": 189999.0,
         "sold_quantity": 2128,
         "thumbnail": "http://http2.mlstatic.com/D_730981-MLA48800008115_012022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 404317872.0
     },
     {
@@ -144,10 +144,10 @@
         "site_id": "MLA",
         "title": " Moto E32 64 Gb  Gris 4 Gb Ram",
         "price": 44999.0,
-        "sold_quantity": 2051,
+        "sold_quantity": 2054,
         "thumbnail": "http://http2.mlstatic.com/D_659047-MLA51017313102_082022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 92292949.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 92427946.0
     },
     {
         "id": "MLA1183050676",
@@ -156,7 +156,7 @@
         "price": 89999.0,
         "sold_quantity": 1215,
         "thumbnail": "http://http2.mlstatic.com/D_869259-MLA51752031121_092022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 109348785.0
     },
     {
@@ -164,30 +164,30 @@
         "site_id": "MLA",
         "title": "Samsung Galaxy A53 5g 128 Gb  Awesome Black 6 Gb Ram",
         "price": 129999.0,
-        "sold_quantity": 1564,
+        "sold_quantity": 1565,
         "thumbnail": "http://http2.mlstatic.com/D_955922-MLA50262225546_062022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 203318436.0
-    },
-    {
-        "id": "MLA922505314",
-        "site_id": "MLA",
-        "title": "Xiaomi Mi Smart Band 6 1.56  Caja De  Pl\u00e1stico Pc  Black, Malla  Black De  Tpu Y Aleaci\u00f3n De Aluminio Xmsh15hm",
-        "price": 9450.0,
-        "sold_quantity": 2474,
-        "thumbnail": "http://http2.mlstatic.com/D_917772-MLA46164931649_052021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 23379300.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 203448435.0
     },
     {
         "id": "MLA1158559776",
         "site_id": "MLA",
         "title": "Xiaomi Redmi Note 11 (snapdragon) Dual Sim 128 Gb  Gris Grafito 4 Gb Ram",
         "price": 79999.0,
-        "sold_quantity": 485,
+        "sold_quantity": 486,
         "thumbnail": "http://http2.mlstatic.com/D_970305-MLA52140435624_102022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 38799515.0
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 38879514.0
+    },
+    {
+        "id": "MLA922505314",
+        "site_id": "MLA",
+        "title": "Xiaomi Mi Smart Band 6 1.56  Caja De  Pl\u00e1stico Pc  Black, Malla  Black De  Tpu Y Aleaci\u00f3n De Aluminio Xmsh15hm",
+        "price": 9450.0,
+        "sold_quantity": 2477,
+        "thumbnail": "http://http2.mlstatic.com/D_917772-MLA46164931649_052021-I.jpg",
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 23407650.0
     },
     {
         "id": "MLA1132853592",
@@ -196,7 +196,7 @@
         "price": 61999.0,
         "sold_quantity": 1780,
         "thumbnail": "http://http2.mlstatic.com/D_661767-MLA49535290322_032022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 110358220.0
     },
     {
@@ -206,8 +206,18 @@
         "price": 124999.0,
         "sold_quantity": 1736,
         "thumbnail": "http://http2.mlstatic.com/D_867153-MLA48271757626_112021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 216998264.0
+    },
+    {
+        "id": "MLA1186097362",
+        "site_id": "MLA",
+        "title": "Motorola G42 128 Gb Verde Atl\u00e1ntico 4gb Ram",
+        "price": 62999.0,
+        "sold_quantity": 1687,
+        "thumbnail": "http://http2.mlstatic.com/D_930921-MLA52181901586_102022-I.jpg",
+        "created_date": "2022-11-09 04:22:06",
+        "earned": 106279313.0
     },
     {
         "id": "MLA1118983010",
@@ -216,7 +226,7 @@
         "price": 59999.0,
         "sold_quantity": 2100,
         "thumbnail": "http://http2.mlstatic.com/D_623923-MLA48764808772_012022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 125997900.0
     },
     {
@@ -226,7 +236,7 @@
         "price": 76949.0,
         "sold_quantity": 201,
         "thumbnail": "http://http2.mlstatic.com/D_935991-MLA52140990789_102022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 15466749.0
     },
     {
@@ -236,7 +246,7 @@
         "price": 240549.0,
         "sold_quantity": 217,
         "thumbnail": "http://http2.mlstatic.com/D_865864-MLA46114990464_052021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 52199133.0
     },
     {
@@ -246,7 +256,7 @@
         "price": 8400.0,
         "sold_quantity": 1538,
         "thumbnail": "http://http2.mlstatic.com/D_822663-MLA41813920064_052020-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 12919200.0
     },
     {
@@ -256,17 +266,7 @@
         "price": 179999.0,
         "sold_quantity": 168,
         "thumbnail": "http://http2.mlstatic.com/D_738558-MLA51752202124_092022-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
+        "created_date": "2022-11-09 04:22:06",
         "earned": 30239832.0
-    },
-    {
-        "id": "MLA933415694",
-        "site_id": "MLA",
-        "title": "Samsung Galaxy S20 Fe 128 Gb  Cloud Navy 6 Gb Ram",
-        "price": 134999.0,
-        "sold_quantity": 631,
-        "thumbnail": "http://http2.mlstatic.com/D_995741-MLA47861036467_102021-I.jpg",
-        "created_date": "2022-11-09 03:16:52",
-        "earned": 85184369.0
     }
 ]

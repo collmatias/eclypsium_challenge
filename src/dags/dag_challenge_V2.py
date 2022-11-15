@@ -86,10 +86,10 @@ def data_quality_check(ti):
     # Check data Quality whit Pandas here!
     # Example: We need to have 50 diferent id products to be Ok.
     #
-    if df.nunique().id != 49:      # To test check Uncomment!
-    #if df.nunique().id != 50:       # To test check Comment!
-        data_error.append("Error: No hay 49 registros. Existen "+str(df.nunique().id)+" id diferentes.")   # To test check Uncomment!
-        #data_error.append("Error: No hay 50 registros. Existen "+str(df.nunique().id)+" id diferentes.")    # To test check Comment!
+    #if df.nunique().id != 49:      # To test check Uncomment!
+    if df.nunique().id != 50:       # To test check Comment!
+        #data_error.append("Error: No hay 49 registros. Existen "+str(df.nunique().id)+" id diferentes.")   # To test check Uncomment!
+        data_error.append("Error: No hay 50 registros. Existen "+str(df.nunique().id)+" id diferentes.")    # To test check Comment!
     #
     pd.to_numeric(df['price'], errors='coerce').fillna(0)
     pd.to_numeric(df['sold_quantity'], errors='coerce').fillna(0)
@@ -112,6 +112,8 @@ def data_quality_check(ti):
                                                 </body>""").render(code=product_code,error=str(data_error))
     #
     if data_error_flag:
+        json_data = df.to_dict()
+        ti.xcom_push(key=product_code+'_checked', value=str(json_data))
         ti.xcom_push(key='html_content', value=str(html_content))
         return "send_data_error_mail"
     else:
@@ -274,5 +276,5 @@ with DAG(
 
     task_extract >> task_data_quality_check >> task_transform >> task_products_alert_check >> [task_send_product_email, task_postgres_load]
     task_extract >> task_api_error_handler >> task_send_dag_error_mail
-    task_data_quality_check >> task_send_data_error_mail
+    task_data_quality_check >> task_send_data_error_mail >> task_transform
     task_send_product_email >> task_postgres_load

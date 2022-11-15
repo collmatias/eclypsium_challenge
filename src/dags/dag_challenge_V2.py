@@ -86,10 +86,18 @@ def data_quality_check(ti):
     # Check data Quality whit Pandas here!
     # Example: We need to have 50 diferent id products to be Ok.
     #
-    #if df.nunique().id != 49:      # To test check Uncomment!
-    if df.nunique().id != 50:       # To test check Comment!
-        #data_error.append("Error: No hay 49 registros. Existen "+str(df.nunique().id)+" id diferentes.")   # To test check Uncomment!
-        data_error.append("Error: No hay 50 registros. Existen "+str(df.nunique().id)+" id diferentes.")    # To test check Comment!
+    if df.nunique().id != 49:      # To test check Uncomment!
+    #if df.nunique().id != 50:       # To test check Comment!
+        data_error.append("Error: No hay 49 registros. Existen "+str(df.nunique().id)+" id diferentes.")   # To test check Uncomment!
+        #data_error.append("Error: No hay 50 registros. Existen "+str(df.nunique().id)+" id diferentes.")    # To test check Comment!
+    #
+    pd.to_numeric(df['price'], errors='coerce').fillna(0)
+    pd.to_numeric(df['sold_quantity'], errors='coerce').fillna(0)
+    #
+    #
+    #print(df.head(10))
+    #
+    #
     #
     if len(data_error)>0:
         data_error_flag = True
